@@ -130,6 +130,11 @@ nav ul li img:hover {
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.joined img:hover{
+    opacity: 1;
 }
 .invite {
     background: #182842;
@@ -144,4 +149,9 @@ nav ul li img:hover {
     margin-left: 5px;
     border-radius: 50%;
     cursor: pointer;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.invite img:hover {
+    opacity: 1;
 }
